@@ -1,0 +1,63 @@
+/* Custom styles for the blog website */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+.navbar a{
+    color: gray;
+}
+.container {
+    max-width: 960px;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.card{
+    color: black;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .col-md-8 {
+        margin-bottom: 1rem;
+    }
+}
+content{
+    display: flex;
+}
+.scrolling-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scrolling-wrapper img {
+    max-height: 300px; /* Adjust the max-height as needed */
+    margin-right: 10px; /* Adjust margin between images as needed */
+}
